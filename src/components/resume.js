@@ -28,7 +28,7 @@ class Resume extends Component {
             <h5>e-mail</h5>
             <p>akhat.chanchal.met17@itbhu.ac.in</p>
             <h5>Website</h5>
-            <p>www.myweb.com</p>
+            <p>https://infallible-brown-17b210.netlify.app/</p>
             <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
