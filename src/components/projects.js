@@ -54,23 +54,22 @@ class Projects extends Component {
 //         </Card>
 
         {/*PROJECT #3*/}
-//         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-//           <CardTitle style={{color: '#fff', height:'176px', background:
-//           'url('+ReactImg+') center/cover'}}
-//           >React Project #3</CardTitle>
-//           <CardText>
-//             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-//             Mauris sagittis pellentesque lacus eleifend lacinia...
-//           </CardText>
-//           <CardActions border>
-//             <Button colored>Github</Button>
-//             <Button colored>Github</Button>
-//             <Button colored>Github</Button>
-//           </CardActions>
-//           <CardMenu style={{color:'#fff'}}>
-//             <IconButton name="share"/>
-//           </CardMenu>
-//         </Card>
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color: '#fff', height:'176px', background:
+          'url('+ReactImg+') center/cover'}}
+          >Notes App #3</CardTitle>
+          <CardText>
+            The app provides user authentication with Amazon Cognito, in-app analytics with Amazon Pinpoint, and it will be connected to a serverless GraphQL backend with AWS AppSync.
+          </CardText>
+          <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>Github</Button>
+            <Button colored>Github</Button>
+          </CardActions>
+          <CardMenu style={{color:'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
         </div>         
       )
     }
